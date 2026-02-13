@@ -7,13 +7,13 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "http://localhost:8000",
-        changeOrigin: true
+        target: "http://13.51.64.37",
+        changeOrigin: true,
       },
       "/media": {
-        target: "http://localhost:8000",
-        changeOrigin: true
-      }
-    }
-  }
+        target: "http://13.51.64.37",
+        changeOrigin: true,
+      },
+    },
+  },
 });
